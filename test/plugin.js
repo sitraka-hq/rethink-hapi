@@ -39,6 +39,13 @@ describe('plugin', () => {
         plugin.validate({a: 1})
       }).to.throw()
     })
+
+    // FIXME: [#1] https://github.com/sitrakary/rethink-hapi/issues/1
+    it('Should not throw an error when ssl is to null', () => {
+      expect(() => {
+        plugin.validate({host: 'localhost', ssl: null})
+      }).to.not.throw()
+    })
   })
 
   describe('init', () => {

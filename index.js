@@ -9,7 +9,7 @@ const optionsSchema = Joi.object().keys({
   password: Joi.string().default(''),
   ssl: Joi.object().keys({
     ca: Joi.binary().required()
-  }).default(null)
+  }).allow(null).default(null)
 })
 
 function init (options) {
