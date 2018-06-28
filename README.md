@@ -1,4 +1,4 @@
-#RETHINK-HAPINESS
+#RETHINK-HAPI
 
 An [HapiJS](https://hapijs.com/) plugin for [rethinkdb](https://rethinkdb.com).
 
@@ -11,7 +11,7 @@ yarn add rethink-hapi
 ```
 If you prefer npm:
 ```js
-npm -i rethinkdb-hapi
+npm -i rethink-hapi
 ```
 
 ## Usage
@@ -53,5 +53,5 @@ testRethinkConnection()
 
 ## Function and object exposed by rethink-hapi
 
-- `connect()`: A function used to get a connection.
+- `connect`: A function used to get a connection.
 - `r`: The top-level ReQL namespace.

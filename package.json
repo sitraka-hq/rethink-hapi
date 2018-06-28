@@ -9,7 +9,7 @@
     "plugin",
     "rethinkdb"
   ],
-  "repository": "git@github.com:sitrakary/rethink-hapiness.git",
+  "repository": "git@github.com:sitrakary/rethink-hapi.git",
   "author": "Sitraka Ratsimba <ratsimbasitraka@gmail.com>",
   "devDependencies": {
     "code": "5.x.x",
