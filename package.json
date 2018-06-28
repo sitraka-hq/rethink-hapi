@@ -1,0 +1,31 @@
+{
+  "name": "rethink-hapi",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "description": "Hapi plugin for rethinkdb",
+  "keywords": [
+    "hapi",
+    "plugin",
+    "rethinkdb"
+  ],
+  "repository": "git@github.com:sitrakary/rethink-hapiness.git",
+  "author": "Sitraka Ratsimba <ratsimbasitraka@gmail.com>",
+  "devDependencies": {
+    "code": "5.x.x",
+    "hapi": "17.x.x",
+    "lab": "15.x.x"
+  },
+  "scripts": {
+    "test": "lab --coverage"
+  },
+  "dependencies": {
+    "rethinkdb": "2.x.x",
+    "joi": "13.x.x"
+  },
+  "files": [
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ]
+}
