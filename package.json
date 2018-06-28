@@ -1,6 +1,6 @@
 {
   "name": "rethink-hapi",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "index.js",
   "license": "MIT",
   "description": "Hapi plugin for rethinkdb",
@@ -20,8 +20,8 @@
     "test": "lab --coverage"
   },
   "dependencies": {
-    "rethinkdb": "2.x.x",
-    "joi": "13.x.x"
+    "joi": "13.x.x",
+    "rethinkdb": "2.x.x"
   },
   "files": [
     "index.js",
